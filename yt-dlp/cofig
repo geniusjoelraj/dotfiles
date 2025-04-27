@@ -1,0 +1,7 @@
+# Lines starting with # are comments
+
+# Save all videos under YouTube directory in your home directory
+-o ~/Media/YouTube/%(title)s.%(ext)s
+
+# Write subtitle file
+--write-subs                   

@@ -1,0 +1,7 @@
+[Libinput][1267][12948][ASUE1213:00 04F3:3294 Touchpad]
+Enabled=true
+NaturalScroll=true
+PointerAccelerationProfile=1
+
+[Mouse]
+X11LibInputXAccelProfileFlat=true

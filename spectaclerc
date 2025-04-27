@@ -1,0 +1,9 @@
+[GuiConfig]
+includeShadow=false
+
+[ImageSave]
+lastImageSaveLocation=file:///home/tensai/Pictures/Screenshots/Screenshot_20250417_221005.png
+translatedScreenshotsFolder=Screenshots
+
+[VideoSave]
+translatedScreencastsFolder=Screencasts

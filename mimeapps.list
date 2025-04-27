@@ -1,0 +1,10 @@
+[Added Associations]
+application/pdf=libreoffice-draw.desktop;firefox.desktop;
+image/png=feh-2.desktop;
+video/webm=mpv-5.desktop;mpv-4.desktop;mpv-3.desktop;mpv-2.desktop;
+
+[Default Applications]
+application/pdf=firefox.desktop
+image/png=feh-2.desktop;
+video/webm=mpv-5.desktop;
+x-scheme-handler/discord-1352351827206733974=discord-1352351827206733974.desktop

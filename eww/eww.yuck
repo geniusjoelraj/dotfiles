@@ -1,0 +1,37 @@
+
+(defwindow example
+           :monitor 0
+           :geometry (geometry :x "0%"
+                               :y "20px"
+                               :width "400px"
+                               :height "150px"
+                               :anchor "top center")
+           :stacking "fg"
+           :reserve (struts :distance "40px" :side "top")
+           :windowtype "dock"
+           :wm-ignore false
+  "example content")
+
+
+(defwindow spotify
+           :monitor 0
+           :geometry (geometry :x "0%"
+                               :y "20px"
+                               :width "400px"
+                               :height "150px"
+                               :anchor "top center")
+           :stacking "fg"
+           :reserve (struts :distance "40px" :side "top")
+           :windowtype "dock"
+           :wm-ignore false
+           (greeter :text "Say hello!"
+           :name "Tim"))
+  "example content")
+
+(defwidget greeter [?text name]
+  (box :orientation "horizontal"
+       :halign "center"
+    text
+    (button :onclick "notify-send 'Hello' 'Hello, ${name}'"
+      "Greet")))
+
