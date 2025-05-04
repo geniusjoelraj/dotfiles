@@ -1,5 +1,15 @@
 updateInfoAdded=true
 
+[dolphin_detailsmodesettings.upd]
+ctime=1745850428
+done=rename-leading-padding,rename-side-padding,move-content-display
+mtime=1745619206
+
+[dolphin_statusandlocationbarssettings.upd]
+ctime=1745850428
+done=move-content-display,25.04-convert-bool-showstatusbar-to-enum-showstatusbar
+mtime=1745619206
+
 [gtkconfig.upd]
 ctime=1744275253
 done=gtk_theme,dont_use_gtk_css_for_window_decorations,remove_deprecated_gtk4_option

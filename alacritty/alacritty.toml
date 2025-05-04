@@ -29,14 +29,18 @@ opacity = 1.0
 dynamic_padding = true
 
 [window.padding]
-x = 15
-y = 15
+x = 10
+y = 0
 
 [scrolling]
 history = 10000
 multiplier = 3
 
 [bell]
-animation = "Linear"
+animation = "Ease"
 duration = 0
 command = { program = "paplay", args = ["/usr/share/sounds/freedesktop/stereo/dialog-error.oga"] }
+
+[keyboard]
+
+bindings = [{ key = "Return", mods = "Super|Shift", action = "SpawnNewInstance" }]

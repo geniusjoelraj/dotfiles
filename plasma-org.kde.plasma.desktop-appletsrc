@@ -77,7 +77,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][33][Applets][51][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 popupHeight=450
 popupWidth=560
 
@@ -146,7 +146,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][39][Applets][49][Configuration]
-PreloadWeight=80
+PreloadWeight=85
 
 [Containments][39][Applets][49][Configuration][General]
 migrated=true
@@ -188,7 +188,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][39][Applets][57][Configuration]
-PreloadWeight=22
+PreloadWeight=27
 
 [Containments][39][General]
 extraItems=org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardlayout,org.kde.plasma.keyboardindicator,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.manage-inputmethod,org.kde.plasma.cameraindicator,org.kde.kscreen,org.kde.plasma.brightness,org.kde.plasma.volume,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller

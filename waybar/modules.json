@@ -69,7 +69,14 @@
     "on-scroll-up": "wpctl set-volume 109 10%+",
     "on-scroll-down": "wpctl set-volume 109 10%-",
     "max-length": 40,
-    "format": "󰓇 ",
+    "tooltip": false,
+    "format-paused": " {title} - {artist}",
+    "format": " {title} - {artist}",
+    "on-scroll-up": "~/.scripts/vol_app.sh spotify up",
+    "on-scroll-down": "~/.scripts/vol_app.sh spotify down",
+
+
+    //"dynamic-order": ["album", "length"]
   },
 
   "custom/notification": {
@@ -120,8 +127,18 @@
     "on-click-right": "mpc next",
     "on-click": "kitty -e rmpc",
     "on-click-middle": "mpc toggle",
-    "on-scroll-up": "wpctl set-volume 88 10%+",
-    "on-scroll-down": "wpctl set-volume 88 10%-",
+    "on-scroll-up": "~/.scripts/vol_app.sh Music up",
+    "on-scroll-down": "~/.scripts/vol_app.sh Music down",
+  },
+  "custom/firefox": {
+    "format": "󰈹",
+    "on-scroll-up": "~/.scripts/vol_app.sh Firefox up",
+    "on-scroll-down": "~/.scripts/vol_app.sh Firefox down",
+    
+  },
+  "custom/accent": {
+    "format": "",
+    "on-click": "~/.scripts/accent_change.sh"
   },
 
  // "cava": { //"cava_config": "~/.config/cava/config",

@@ -28,6 +28,18 @@ button {
     background-color 200ms ease-in-out;
 }
 
+#custom-firefox, #custom-accent {
+  margin-right: 5px;
+}
+
+#custom-firefox {
+  color: @red
+}
+
+#bluetooth {
+  color: @sapphire
+}
+
 button:hover {
   color: @hoverFg;
   background: @hoverBg;
@@ -121,6 +133,14 @@ window#waybar.empty #window {
   }
 }
 
+#battery:not(.charging) {
+  color: @green;
+}
+
+#mpd{
+  color: @blue;
+}
+
 #battery.critical:not(.charging) {
   background-color: @activeBg;
   animation-name: blink;
@@ -128,6 +148,7 @@ window#waybar.empty #window {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+  color: @red;
 }
 
 

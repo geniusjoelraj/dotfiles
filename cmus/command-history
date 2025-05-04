@@ -1,7 +1,0 @@
-live-filter 
-shell echo hello
-bind -f common ^E win-scroll-down
-colorscheme spotify
-colorscheme jellybeans
-colorscheme dracula
-colorscheme amazon
