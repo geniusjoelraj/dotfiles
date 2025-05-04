@@ -1,7 +1,0 @@
-[Daemon]
-LockGrace=30
-Timeout=30
-
-[Greeter][Wallpaper][org.kde.image][General]
-Image=/home/tensai/Pictures/Wallpapers/rain_dark_2.jpg
-PreviewImage=/home/tensai/Pictures/Wallpapers/rain_dark_2.jpg
