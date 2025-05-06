@@ -28,8 +28,13 @@ button {
     background-color 200ms ease-in-out;
 }
 
-#custom-firefox, #custom-accent {
+#custom-firefox,
+#custom-accent {
   margin-right: 5px;
+}
+
+#mpris {
+  color: #1ED760;
 }
 
 #custom-firefox {
@@ -93,6 +98,7 @@ window#waybar.empty #window {
   font-size: 1.5rem;
   margin: 0 0.5rem;
 }
+
 #custom-quicklink1 {
   /* margin-left: 0; */
 }
@@ -118,6 +124,7 @@ window#waybar.empty #window {
   background-color: transparent;
 
 }
+
 #workspaces button:last-child {
   margin-right: 0;
 }
@@ -137,7 +144,7 @@ window#waybar.empty #window {
   color: @green;
 }
 
-#mpd{
+#mpd {
   color: @blue;
 }
 
@@ -152,12 +159,12 @@ window#waybar.empty #window {
 }
 
 
-#tray > .passive {
+#tray>.passive {
   /* -gtk-icon-effect: dim; */
   background-color: @accent;
 }
 
-#tray > .needs-attention {
+#tray>.needs-attention {
   /* -gtk-icon-effect: highlight; */
   background-color: @activeBg;
 }
@@ -170,8 +177,7 @@ label:focus {
   background-color: @activeBg;
 }
 
-#quicklinks {
-}
+#quicklinks {}
 
 #workspaces button {
   box-shadow: none;
@@ -179,10 +185,11 @@ label:focus {
   color: @main-fg;
   /* animation: ws_normal 20s ease-in-out 1; */
 }
+
 #workspaces button.active {
   /* background: @wb-act-bg; */
   color: @accent;
-  
+
   /* animation: ws_active 20s ease-in-out 1; */
   /* transition: all 0.4s cubic-bezier(.55, -0.68, .48, 1.682); */
 }

@@ -23,12 +23,13 @@
     "hyprland/window",
   ],
   "modules-center": [
+    "idle_inhibitor",
+    "clock",
     // "mpd",
     "mpris"
   ],
   "modules-right": [
     // "group/media",
-    "idle_inhibitor",
     "custom/firefox",
     // "network",
     "bluetooth",
