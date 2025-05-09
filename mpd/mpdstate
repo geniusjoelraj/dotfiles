@@ -2,17 +2,54 @@ sw_volume: 60
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
 state: pause
-current: 1
-time: 45.349000000000004
+current: 18
+time: 111.77
 random: 0
-repeat: 1
-single: oneshot
+repeat: 0
+single: 0
 consume: 0
 crossfade: 0
 mixrampdb: 0
 mixrampdelay: -1
 lastloadedplaylist: 
 playlist_begin
-0:Ado - Kyogen (2022)/Ado - 14 - Yoru No Pierrot.mp3
-1:÷ (2017)/Ed Sheeran - ÷ - 02 - Castle on the Hill.flac
+0:Disc 1/01. Usseewa.m4a
+1:Disc 1/02. Ashura-chan.m4a
+2:Disc 1/03. Yoru No Pierrot.m4a
+3:Disc 1/04. Kura Kura.m4a
+4:Disc 1/05. Chocolat Cadabra.m4a
+5:Disc 1/06. unravel.m4a
+6:Disc 1/07. I’m invincible.m4a
+7:Disc 1/08. Fleeting Lullaby.m4a
+8:Disc 1/09. Motherland.m4a
+9:Disc 1/10. Himawari.m4a
+10:Disc 1/11. New Genesis.m4a
+11:Disc 1/12. Gira Gira.m4a
+12:Disc 1/13. RuLe.m4a
+13:Disc 1/14. Episode X.m4a
+14:Disc 1/15. Freedom.m4a
+15:Disc 1/16. ROCKSTAR.m4a
+16:Disc 1/17. Show.m4a
+17:Disc 1/18. Ibara.m4a
+18:Disc 1/19. Value.m4a
+19:Disc 1/20. KokoroToIuNaNoFukakai.m4a
+20:Disc 2/01. Shoka.m4a
+21:Disc 2/02. Hello Signals.m4a
+22:Disc 2/03. Backlight.m4a
+23:Disc 2/04. Rebellion.m4a
+24:Disc 2/05. MIRROR.m4a
+25:Disc 2/06. I’m a Controversy.m4a
+26:Disc 2/07. missing.m4a
+27:Disc 2/08. Aishite Aishite Aishite.m4a
+28:Disc 2/09. Tot Musica.m4a
+29:Disc 2/10. DIGNITY.m4a
+30:Disc 2/11. Aitakute.m4a
+31:Disc 2/12. Elf.m4a
+32:Disc 2/13. Eien No Akuruhi.m4a
+33:Disc 2/14. Readymade.m4a
+34:Disc 2/15. Lucky Bruto.m4a
+35:Disc 2/16. Kagakushu.m4a
+36:Disc 2/17. All Night Radio.m4a
+37:Disc 2/18. Bouquet for Me.m4a
+38:Disc 2/19. Odo.m4a
 playlist_end

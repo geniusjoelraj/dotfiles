@@ -4,18 +4,10 @@
     "separator": " : "
   },
   "logo": {
-    "type": "auto",
-    "source": "arch",
-    "width": 35,
-    "height": 15,
+    "type": "file",
+    "source": "/home/tensai/.config/fastfetch/icons/tori.txt",
     "padding": {
-        "top": 1,
-        "left": 0,
-        "right": 4
-    },
-    "color": {
-        "1": "black",
-        "2": "white",
+      "right": 30
     }
     },
     "modules": [

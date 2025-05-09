@@ -70,8 +70,8 @@
     "on-scroll-down": "wpctl set-volume 109 10%-",
     "max-length": 40,
     "tooltip": false,
-    "format-paused": " {title} - {artist}",
-    "format": " {title} - {artist}",
+    "format-paused": " {title} - {artist}",
+    "format": " {title} - {artist}",
     "on-scroll-up": "~/.scripts/vol_app.sh spotify up",
     "on-scroll-down": "~/.scripts/vol_app.sh spotify down",
 
@@ -134,6 +134,12 @@
     "format": "󰈹",
     "on-scroll-up": "~/.scripts/vol_app.sh Firefox up",
     "on-scroll-down": "~/.scripts/vol_app.sh Firefox down",
+    
+  },
+  "custom/zen": {
+    "format": "󰰷 ",
+    "on-scroll-up": "~/.scripts/vol_app.sh Zen up",
+    "on-scroll-down": "~/.scripts/vol_app.sh Zen down",
     
   },
   "custom/accent": {
@@ -216,10 +222,10 @@
       "warning": 30,
       "critical": 15
     },
-    "format": "{icon}",
+    "format": "{capacity}%",
     "format-charging": "  {capacity}%",
     "format-plugged": "  {capacity}%",
-    "format-alt": "{icon} {capacity}%",
+    //"format-alt": "{icon} {capacity}%",
     // "format-good": "", // An empty format will hide the module
     // "format-full": "",
     "format-icons": [" ", " ", " ", " ", " "]
@@ -251,6 +257,5 @@
       "activated": "󰅶",
       "deactivated": "󰾪"
     },
-    "on-click-right": "hyprlock"
   }
 }

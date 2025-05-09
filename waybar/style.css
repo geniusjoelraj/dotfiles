@@ -33,8 +33,12 @@ button {
   margin-right: 5px;
 }
 
+#custom-zen {
+  color: @peach
+}
+
 #mpris {
-  color: #1ED760;
+  color: @accent;
 }
 
 #custom-firefox {
@@ -149,12 +153,6 @@ window#waybar.empty #window {
 }
 
 #battery.critical:not(.charging) {
-  background-color: @activeBg;
-  animation-name: blink;
-  animation-duration: 0.5s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
   color: @red;
 }
 

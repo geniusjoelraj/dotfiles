@@ -30,10 +30,11 @@
   ],
   "modules-right": [
     // "group/media",
-    "custom/firefox",
+    "battery",
+    // "custom/firefox",
+    "custom/zen",
     // "network",
     "bluetooth",
-    "battery",
     "tray",
     "custom/accent",
     "custom/notification"
