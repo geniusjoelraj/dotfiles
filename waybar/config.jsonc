@@ -23,10 +23,10 @@
     "hyprland/window",
   ],
   "modules-center": [
-    "idle_inhibitor",
     "clock",
     // "mpd",
-    "mpris"
+    "mpris",
+    "cava"
   ],
   "modules-right": [
     // "group/media",
