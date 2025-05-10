@@ -18,25 +18,19 @@
     "~/.config/waybar/sound.json"
   ],
   "modules-left": [
-    "custom/appmenu",
-    "hyprland/workspaces",
-    "hyprland/window",
+    "hyprland/workspaces"
   ],
   "modules-center": [
+    "power-profiles-daemon",
     "clock",
     // "mpd",
-    "mpris",
-    "cava"
+    "mpris"
   ],
   "modules-right": [
-    // "group/media",
     "battery",
-    // "custom/firefox",
-    "custom/zen",
-    // "network",
-    "bluetooth",
+    // "custom/zen",
+    "idle_inhibitor",
     "tray",
-    "custom/accent",
     "custom/notification"
   ]
 }

@@ -37,6 +37,20 @@ button {
   color: @peach
 }
 
+#power-profiles-daemon, #idle_inhibitor {
+  font-size: 16px;
+}
+
+#power-profiles-daemon.performance {
+  color: @red;
+}
+#power-profiles-daemon.balanced {
+  color: @accent;
+}
+#power-profiles-daemon.power-saver {
+  color: @green
+}
+
 #mpris {
   color: @accent;
 }
@@ -86,7 +100,7 @@ window#waybar.empty #window {
 #sound,
 #hardware,
 #clock {
-  padding: 0 8px;
+  /* padding: 0 8px; */
 }
 
 #custom-quicklink1,
